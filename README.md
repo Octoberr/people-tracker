@@ -7,3 +7,5 @@ and use sort to track people.
 tensorflow-fast-RCNN:https://github.com/endernewton/tf-faster-rcnn
 sort:https://github.com/abewley/sort
 
+sort 统计people的进出人数
+
