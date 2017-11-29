@@ -21,7 +21,7 @@ def draw_detections(img, rects):
         cv2.rectangle(img, (int(x), int(y)), (int(a), int(b)), (0, 255, 0), thickness=1)
         cv2.putText(img, str(int(z)), (int(x), int(b)-10), cv2.FONT_HERSHEY_SIMPLEX, fontScale=0.75,
                     color=(152, 255, 204), thickness=2)
-        return img
+    return img
 
 
 def convertlocation(people):
